@@ -1,0 +1,23 @@
+{
+  "name": "20240823-guild",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitrvmpd/20240823-guild.git"
+  },
+  "private": true,
+  "scripts": {
+    "build": "pnpm lerna run build",
+    "release": "pnpm build && pnpm changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.7.0",
+  "devDependencies": {
+    "lerna": "^8.1.8"
+  },
+  "engines": {
+    "node": ">=20.15.1",
+    "pnpm": ">=9.7.0"
+  }
+}
